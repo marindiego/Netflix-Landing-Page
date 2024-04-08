@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Montserrat:wght@400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <div class="image-container">
+            <img src="./img/product-landing-page-logo-netflix.png" alt="Product Landing Page Logo" id="header-img">
+        </div>
+        <nav id="nav-bar">
+            <ul class="flex-nav-items">
+                <li>
+                    <a class="nav-link" href="#Features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#How-netflix-works">How it Works</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Plans">Plans</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <section class="Introduction">              
+                    <h1>Películas y series ilimitadas y mucho más</h1>
+                    <p>Disfruta donde quieras. Cancela cuando quieras.</p>
+                    <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p> 
+                    <label for="email">
+                        <input type="email" name="client-email" id="email" placeholder="Enter your email address">
+                    </label>
+                    <input type="submit" value="SEND" id="submit">          
+            </section>
+        </form>
+        <section id="Features" class="grid-middle">  
+            <div class="main-features">
+                <div>
+                    <img src="./img/sharp_signal_wifi_connected_no_internet_4_white_24dp.png" alt="signal_wifi_connected_no_internet"
+                        class="main-icon-streaming-service">
+                </div>
+                <h3>Sin conexión a Internet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eum sunt natus unde facere. Obcaecati officia libero voluptatibus qui nobis mollitia reprehenderit atque laboriosam voluptates deleniti, vitae, optio tempore saepe?</p>
+            </div>
+            <div class="main-features">          
+                <div>
+                    <img src="./img/sharp_devices_white_24dp.png" alt="sharp_devices_white" class="main-icon-streaming-service">
+                </div>
+                <h3>Ver en cualquier dispositvo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto modi sit quibusdam voluptates, ipsa velit ipsum soluta odit impedit odio. Voluptate officia ex magni velit facilis odit, culpa quo quasi.</p>    
+            </div>
+            <div class="main-features">
+                <div>
+                    <img src="./img/sharp_vertical_align_bottom_white_24dp.png"alt="sharp_vertical_align_bottom_white" class="main-icon-streaming-service">            
+                </div>
+                <h3>Contenido ilimitado</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque reiciendis ratione nam! Veritatis reiciendis fugiat dolorum animi eos quibusdam maiores ipsam architecto, autem, similique cum modi sed beatae quaerat iste!</p>
+            </div>
+        </section>
+        <section class="grid-middle">
+            <h2 id="How-netflix-works">How neftlix works</h2>
+            <div class="flex-center">
+                <video id="video" alt="video-tutorial" width="400" height="300" controls autoplay muted>
+                <source src="">
+                </video>
+            </div>
+        </section>
+        <section class="grid-middle">
+            <h2 id="Plans">Plans</h2>
+            <div class="plans-card">
+                <div class="plants-card-options">
+                    <h3>Básico</h3>
+                    <span class="plant-attribute">Lorem ipsum dolor sit adipisicing elit. </span>
+                    <span class="plant-attribute">Lorem, ipsum dolor sit adipisicing elit.</span>
+                    <span class="plant-attribute">Lorem ipsum dolor sit adipisicing elit.</span>
+                    <input type="submit" value="SELECT" class="select-plan-button">
+                </div>
+                <div class="plants-card-options">
+                    <h3>Estándar</h3>
+                    <span class="plant-attribute">Lorem ipsum dolor sit adipisicing elit. </span>
+                    <span class="plant-attribute">Lorem, ipsum dolor sit adipisicing elit.</span>
+                    <span class="plant-attribute">Lorem ipsum dolor sit adipisicing elit.</span>
+                    <input type="submit" value="SELECT" class="select-plan-button">
+                </div>
+                <div class="plants-card-options">
+                    <h3>Premium</h3>
+                    <span class="plant-attribute">Lorem ipsum dolor sit adipisicing elit. </span>
+                    <span class="plant-attribute">Lorem, ipsum dolor sit adipisicing elit.</span>
+                    <span class="plant-attribute">Lorem ipsum dolor sit adipisicing elit.</span>
+                    <input type="submit" value="SELECT" class="select-plan-button">
+                </div>
+            </div>
+        </section>
+        <footer class="grid-middle">
+            <section id="footer-terms-conditions">
+                <p>Privacy Termns Conditions</p>
+                <p>Copyright 2023, Netflix (copy)</p>
+            </section>
+        </footer> 
+    </main>
+</body>
+</html>
